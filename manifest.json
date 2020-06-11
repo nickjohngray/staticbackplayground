@@ -1,0 +1,588 @@
+{
+    "imagePath": "./../images/",
+    "appName": "Strength Pit Otara",
+    "pages": [
+        {
+            "name": "Home",
+            "path": "/",
+            "template": "src/components/pages/Home"
+        },
+        {
+            "name": "Merchandise",
+            "template": "src/components/pages/Shop",
+            "path": "merchandise"
+        },
+        {
+            "name": "About",
+            "path": "about",
+            "template": "src/components/pages/About"
+        },
+        {
+            "name": "Gallery",
+            "path": "image-gallery",
+            "template": "src/components/pages/ImageGallery",
+            "images": [
+                {
+                    "src": "ttt_logotrans.fw_.png"
+                },
+                {
+                    "src": "benjimimgoldlogo.fw_.png"
+                },
+                {
+                    "src": "aucklandhealthperf.fw_.png"
+                },
+                {
+                    "src": "jacksmeat.fw_.png"
+                }
+            ]
+        },
+        {
+            "name": "Videos",
+            "path": "videos",
+            "template": "src/components/pages/Videos"
+        },
+        {
+            "name": "Page Nout Found",
+            "path": "404",
+            "template": "src/components/pages/404"
+        },
+        {
+            "name": "Athletes",
+            "path": "athletes",
+            "template": "src/components/pages/Athletes",
+            "sections": [
+                {
+                    "opener":{"type": "tab", "open" :true},
+                    "header": "Pro Athletes",
+                    "sections": [
+                        {
+                            "link": "https://www.facebook.com/Eddiejowilliams",
+                            "image": {"src": "eddie.jpeg"},
+                            "header": "Eddie Williams",
+                            "list": ["2 x Australia Strongest Man 18,19", "WSM athlete", "Pro Arnold Classic athlete"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Trey Mitchell",
+                            "list": ["1 x America Strongest Man 2019", "WSM athlete", "Pro Arnold Classic athlete"]
+                        }
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "Open Mens",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Anthony Dillon",
+                            "list": [
+                                "NZ Mas Wrestling Open Mens Champion 2020",
+                                "Backyard Highland Games Open Mens champion 2019",
+                                "Auckland Highland Games 2019 2nd",
+                                "Miada West Novice comp Open Mens 2019 2nd",
+                                "Auckland Strongman Series round 3 2019 2nd"
+                            ]
+                        },
+                        {
+                            "image": {"src": "christian_sio_open-mens.jpeg"},
+                            "header": "Christian Sio",
+                            "list": [
+                                "Miada West Novice comp 2019  1st",
+                                "Auckland Highland Games 2019 3rd",
+                                "Te Puke Strongest Man 2020 1st",
+                                "Counties Strongest Man 2020 3rd",
+                                "NZ Static Monsters Open Mens 2019 1st"
+                            ]
+                        },
+                        {
+                            "image": {"src": "dan_sio_opens_men.jpeg"},
+                            "header": "Dan Sio",
+                            "list": [
+                                "Counties Strongest Man 2020 4th",
+                                "Miada West Novice comp 2019 4th"
+                            ]
+                        },
+                        {
+                            "image": {"src": "vaughn_hannah_opens_men.jpeg"},
+                            "header": "Vaughn Hannah",
+                            "list": [
+                                "2019 Auckland Strongman Series round 3 aopen Mens 3rd"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Ash Westerlund",
+                            "list": [
+                                "Deadlifr 270kg PB",
+                                "Squat 240kg PB",
+                                "Bench 130kg PB"
+                            ]
+                        },
+                        {
+                            "image": {"src": "jeremy_sullivan_opopen_mens.jpeg"},
+                            "header": "Jeremy Sullivan",
+                            "list": [
+                                "2020 Miada West Novice comp Open Mens 4th"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg", "url":""},
+                            "header": "Eru Wirihana",
+                            "list": [
+                                "2 x Manuwatu Strongest Man 2018, 2019",
+                                "Wellington Strongest Man 2019 2nd",
+                                "Canterbury Strongest Man 2019 2nd"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg", "url":""},
+                            "header": "Jay Waicokacola",
+                            "list": [
+                                "Central Coast Strongest Man 2019 Champion"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg", "url":""},
+                            "header": "Nick Turia",
+                            "list": [
+                                "2020 Miada West Novice comp  Open Mens 6th"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg", "url":""},
+                            "header": "Paul Mau",
+                            "list": [
+                                "2019 Miada West Novice comp  6th",
+                                "Backyard Highland Games Open Mens 2019 2nd"
+                            ]
+                        },
+                        {
+                            "image": {"src": "a1.jpg", "url":""},
+                            "header": "Bobby Mateo",
+                            "list": [
+                                "Deadlift 230kg PB",
+                                "Squat 180kg PB",
+                                "Bench 130kg PB"
+                            ]
+                        }
+                        
+                        
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U105kg Men",
+                    "sections": [
+                        {
+                            "image": {"src": "ben_bowden_u105.jpeg"},
+                            "header": "Ben Bowden",
+                            "list": ["Static Monsters u105kg 1st 2019",
+                            "2nd Counties Strongest Man 2020",
+                            "Te Puke Strongest Man 2020 2nd"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Oliver Wilson",
+                            "list": ["1 x Counties Strongest Man u105kg 2020",
+                            "NZ Strongman Series Nationals 3rd 2018"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Jamaine Westerlund",
+                            "list": ["NZ Strongman Series Nationals 2019 - 2nd place"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Duncan Davis",
+                            "list": ["Static Monsters u105kg 2019 3rd",
+                            "Miada West Novice comp 2019 3rd"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Tangaroa Keepa Jackson",
+                            "list": ["Miada West Novice comp 2020 1st place",
+                            "4th u105kg Backyard Highland Games 2019"]
+                        }
+                        
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U90kg Men",
+                    "sections": [
+                        {
+                            "image": {"src": "ryan_stowers_u90.jpeg"},
+                            "header": "Ryan Stowers",
+                            "list": ["Te Puke Strongest Man 2020 3rd",
+                            "NZ Mas Wrestling u105kg Champion 2020"]
+                        },
+                        {
+                            "image": {"src": "dino.jpeg"},
+                            "header": "Dino Omicevic",
+                            "list": ["NZ Static Monsters 2019 u90kg",
+                            "NZ Mas Wrestling u90kg Champion 2020"],
+                            "link":"https://www.facebook.com/dino.omi"
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Troy Moyle",
+                            "list": ["2nd Miada West Novice comp u105 2019",
+                            "Counties Strongest Man u90kg for 2020 "]
+                        }
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U80kg Men",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Jagdip Bajwa",
+                            "list": ["NZ Strongman Series Nationals Champion 1st place"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Indegit Singh",
+                            "list": ["NZ Strongman Series Nationals u90kg 2nd.place"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Skyler Hawk",
+                            "list": ["NZ Strongman Series Nationals u90kg 3rd.place"]
+                        }
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "Open Ladies",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Shar Pini",
+                            "list": ["Arnold Classic competitor",
+                            "2019 Arnold's Classic Mas Wrestling Open Ladies Champion", 
+                            "2020 Mas Wrestling Open Ladies champion "]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Krissy Bhen",
+                            "list": ["Auckland Strongman Series round 3 Open Ladies 2019 3rd",
+                            "NZ Strongman Series Nationals Open Ladies 2019 2nd"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Hosanna Mateo",
+                            "list": ["Auckland Strongman Series round 3 Open Ladies 2018 3rd",
+                            "King & Queen of Stones Open Ladies 2019 2nd"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Kylie Clark",
+                            "list": ["Auckland Strongman Series round 2 Open Ladies 2017 3rd",
+                            "Auckland Strongman Series round 3 Open Ladies 2018 3rd"]
+                        }
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U82kg Ladies",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Manuao Stowers",
+                            "list": ["NZ Strongman Series Nationals u82kg 2019 3rd",
+                            "Auckland Strongman Series round 2 u72kg 2019 3rd"]
+                        }
+                       
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U73kg Ladies",
+                    "sections": [
+                        {
+                            "image": {"src": "kylie_vincent_u73.jpeg"},
+                            "header": "Kylie Vincent",
+                            "list": ["NZ Strongman Series Nationals u73kg Champion 2019",
+                            "Auckland Strongman Series round 2 Champion 2019",
+                            "Auckland Strongman Series round 3 Champion 2019",
+                            "NZ Strongest Woman 2020 4th"]
+                        }
+                       
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "U65kg Ladies",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Leehane Stowers",
+                            "list": ["Arnold Competitor",
+                            "Auckland Highland Games u65kg Champion"]
+                        }
+                       
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "Masters Men",
+                    "sections": [
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Afaese Paea",
+                            "list": ["4 x NZ Strongest Man Masters Champion 2016, 2017, 2018, 2019",
+                            "1 x Southern Hemisphere  Strongest Man Masters Champion 2019",
+                            "1 x NZ Southern Hemisphere Strongest Man Open Mens Champion 2018",
+                            "1 x NZ Strongman Series Nationals Masters 2019 Champion", 
+                            "1 x Big Boys Toys Masters 2019 Champion", 
+                            "1 x Counties Strongest Man Masters 2020 Champion",
+                            "8 x NZSM competitor"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Ben Paea",
+                            "list": ["2 x NZ Strongest Man Masters 2017, 2018 2nd",
+                            "1 x NZ Strongest Man Masters 2019 3rd",
+                            "NZ Strongman Series Nationals Masters 2019 3rd"]
+                        },
+                        {
+                            "image": {"src": "hex_kingi_masters.png"},
+                            "header": "Hex Kingi",
+                            "list": ["NZ Static Monsters Masters 2019 1st",
+                            "Big Boys Toys Masters title 2020 2nd",
+                            "Backyard Highland Games Masters 2019 2nd",
+                            "NZ Strongest Man Masters 2019 4th"]
+                        },
+                        {
+                            "image": {"src": "joseph_apii_masters.jpeg"},
+                            "header": "Joseph Apii",
+                            "list": ["Miada West Novice Masters 2020 2nd",
+                                "NZ Static Monsters Masters 2019 3rd",
+                                "NZ Strongest Man Masters 2019 4th",
+                                "NZ Strongman Series Nationals Masters 2019 4th"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Whetu Flesher",
+                            "list": ["2 x NZ Strongest Man Masters 2016, 2017",
+                            "2017 NZ Static Monsters u105kg Champion",
+                            "2 x NZSM competitor"]
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Rich Farrell",
+                            "list": ["2 x NZ Strongest Man Masters u105 2019, 2020",
+                            "Te Puke Strongest Man u105kg  1st",
+                            "NZ Static Monsters Masters 2019 2nd"]
+                        },
+                        {
+                            "image": {"src": "nickgray.jpg"},
+                            "header": "Nick Gray",
+                            "list": ["220kg Deadlift PB",
+                            "100kg Bench PB"]
+                        }
+                       
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :false},
+                    "header": "Masters Woman",
+                    "body" :"coming soon!!"
+                    
+                }
+            ]
+        },
+        {
+            "name": "Sponsors",
+            "path": "sponsors",
+            "template": "src/components/pages/Sponsors",
+            "images": [
+                {
+                    "src": "tumunu_sunglasses.fw_.png",
+                    "url": "https://www.tumunusunglasses.co.nz"
+                },
+
+                {
+                    "src": "ttt_logotrans.fw_.png",
+                    "Name": "Paul",
+                    "email": "paul@ttt.co.nz",
+                    "phone": "+64 22 06 75 44"
+                },
+                {
+                    "src": "benjimimgoldlogo.fw_.png",
+                    "url": "https://www.benjaminblack.co.nz"
+                },
+                {
+                    "src": "aucklandhealthperf.fw_.png",
+                    "url": "https://www.ahap.co.nz"
+                },
+                {
+                    "src": "jacksmeat.fw_.png",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "name": "News",
+            "path": "strong-man-news",
+            "template": "src/components/pages/StrongManNews"
+        },
+        {
+            "name": "Checkout",
+            "path": "checkout",
+            "template": "src/components/pages/Checkout"
+        }
+    ],
+    "products": [
+        {
+            "type": "TSHIRT",
+            "title": "tshirt",
+            "description": "<div><p>Aotearoa T-Shirt by Hallenstein Brothers</p><ul>Represent New Zealand in our Aotearoa tee feautring the outline of New Zealand and Aotearoa graphic. The perfect tee for those lazy summer days.</ul><ul><li> Crew neck</li><li> New Zealand outline to the front</li><li> Aotearoa graphic to the front</li><li> Regular fit</li><li> Ribbed neck</li><li> Soft cotton</li><li> 160GSM cotton</li><li> Model wears size M/32 | 185cm/6'1 tall </li></ul><p></p><p>Product code: 9548505</p></div>",
+            "price": 35,
+            "image": "strength-pit-black_01w-tshirt.jpg",
+            "variations": [
+                {
+                    "title": "Size",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1..."
+                        },
+                        {
+                            "optionValue": "Small"
+                        },
+                        {
+                            "optionValue": "Medium"
+                        },
+                        {
+                            "optionValue": "Large"
+                        },
+                        {
+                            "optionValue": "XL"
+                        },
+                        {
+                            "optionValue": "2XL"
+                        },
+                        {
+                            "optionValue": "3XL"
+                        },
+                        {
+                            "optionValue": "4XL"
+                        },
+                        {
+                            "optionValue": "5XL"
+                        },
+                        {
+                            "optionValue": "6XL"
+                        }
+                    ]
+                },
+                {
+                    "title": "Color",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1...",
+                            "image": "strength-pit-black-tshirt01.jpg"
+                        },
+                        {
+                            "optionValue": "Black",
+                            "image": "strength-pit-black-tshirt01.jpg"
+                        },
+                        {
+                            "optionValue": "Red",
+                            "image": "strength-pit-red-tshirt.fw_.png"
+                        },
+                        {
+                            "optionValue": "White",
+                            "image": "strength-pit-white-tshirt.fw_.png"
+                        },
+
+                        {
+                            "optionValue": "Navy",
+                            "image": "strength-pit-navy-tshirt.fw_.png"
+                        },
+                        {
+                            "optionValue": "Chacoal",
+                            "image": "tees_chacoal.fw_.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Gold-Sovereeign-Rings",
+            "title": "Gold Sovereeign Rings",
+            "description": "<strong> (Reserved for Pit Members Only) </strong>Custom branded sovereign and half sovereign signet rings for Strength Pit Otara.",
+            "image": "icon1.jpg",
+            "variations": [
+                {
+                    "title": "Sovereeign",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1...",
+                            "price": -1
+                        },
+                        {
+                            "optionValue": "9 carat Full Sovereeign",
+                            "price": 2795
+                        },
+                        {
+                            "optionValue": "9 carat Half Sovereeign",
+                            "price": 2395
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Sterling Silver RINGS",
+            "title": "Sterling Silver RINGS",
+            "description": "A truly special piece with jewellery and fragrance combined, we introduce you - Scented Jewellery. An inspiring and unique gift or a piece to own for yourself, this innovative accessory offers you both perfume and jewellery in one product - a true girl’s best friend!<br /><br />Each scented <b>jewellery</b> comes with a 3 month supply of scented stone that slowly diffuse the fragrance of your choice and allows the perfume to slowly release into the air around you. A new and clever way of wearing your perfume!",
+            "image": "icon1.jpg",
+            "variations": [
+                {
+                    "title": "Sovereeign",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1...",
+                            "price": -1
+                        },
+                        {
+                            "optionValue": "Full Sovereeign",
+                            "price": 295
+                        },
+                        {
+                            "optionValue": "Half Sovereeign",
+                            "price": 245
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Gold / Sterling Silver RINGS",
+            "title": "1/2 Gold & Sterling Silver RINGS",
+            "description": "A truly special piece with jewellery and fragrance combined, we introduce you - Scented Jewellery. An inspiring and unique gift or a piece to own for yourself, this innovative accessory offers you both perfume and jewellery in one product - a true girl’s best friend!<br /><br />Each scented <b>jewellery</b> comes with a 3 month supply of scented stone that slowly diffuse the fragrance of your choice and allows the perfume to slowly release into the air around you. A new and clever way of wearing your perfume!",
+            "image": "icon1.jpg",
+            "variations": [
+                {
+                    "title": "Sovereeign",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1...",
+                            "price": -1
+                        },
+                        {
+                            "optionValue": "Full Sovereeign",
+                            "price": 1595
+                        },
+                        {
+                            "optionValue": "Half Sovereeign",
+                            "price": 1295
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
