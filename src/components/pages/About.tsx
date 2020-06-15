@@ -8,12 +8,19 @@ export default () => (
         <h2 className="center-text">
             <a
                 title="download"
-                href="./../src/pdf/list_of_strength_pit_otara_strongman_athletes_board_2020.pdf"
+                href="./../src/pdf/strength_pit_otara_strongwoman_athletes_board_2020.pdf"
                 target="_new"
             >
-                Strength Pit Otara strongman athletes board 2020
+                Strong Woman Athletes Board 2020
             </a>
         </h2>
-        <PdfViewer file={'./../src/pdf/list_of_strength_pit_otara_strongman_athletes_board_2020.pdf'} />
+        <PdfViewer file={'./../src/pdf/strength_pit_otara_strongwoman_athletes_board_2020.pdf'} />
+
+        <h2 className="center-text">
+            <a title="download" href="./../src/pdf/strength_pit_otara_strongman_athletes_board_2020.pdf" target="_new">
+                Strong Man Athletes Board 2020
+            </a>
+        </h2>
+        <PdfViewer file={'./../src/pdf/strength_pit_otara_strongman_athletes_board_2020.pdf'} />
     </div>
 );

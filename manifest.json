@@ -62,9 +62,85 @@
                             "list": ["2 x Australia Strongest Man 18,19", "WSM athlete", "Pro Arnold Classic athlete"]
                         },
                         {
-                            "image": {"src": "a1.jpg"},
+                            "image": {"src": "trey_mitchell.png"},
                             "header": "Trey Mitchell",
                             "list": ["1 x America Strongest Man 2019", "WSM athlete", "Pro Arnold Classic athlete"]
+                        },
+                        {
+                            "image": {"src": "kate_mitchell.png"},
+                            "header": "Kate Mitchell",
+                            "list": [""]
+                        },
+                        {
+                            "image": {"src": "shayna_wirihana.png"},
+                            "header": "Shayna Wirihana",
+                            "list": [""]
+                        }
+                           
+
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :true},
+                    "header": "Celebrities",
+                    "sections": [
+                        {
+                            "image": {"src": "david_tua.png"},
+                            "header": "David Tua",
+                            "list": [""]
+                        },
+                        {
+                            "image": {"src": "dave_latele.png"},
+                            "header": "Dave Latele",
+                            "list": [""]
+                        } 
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :true},
+                    "header": "VIP Memebers",
+                    "sections": [
+                        {
+                            "image": {"src": "george_grieg.png"},
+                            "header": "George Grieg"
+                        },
+                        {
+                            "image": {"src": "kenneth_auelua.png"},
+                            "header": "Kenneth Auelua"
+                        }
+                    ]
+                },
+                {
+                    "opener":{"type": "tab", "open" :true},
+                    "header": "Members who trained out of the Strength Pit",
+                    "sections": [
+                        {
+                            "image": {"src": "pauly_tahuri.png"},
+                            "header": "Pauly Tahuri"
+                        },
+                        {
+                            "image": {"src": "a1.jpg"},
+                            "header": "Mike ( NEED IMAGE )"
+                        },
+                        {
+                            "image": {"src": "selena_hotere.png"},
+                            "header": "Selena Hotere"
+                        },
+                        {
+                            "image": {"src": "awhina_macleod.png"},
+                            "header": "Awhina Macleod"
+                        },
+                        {
+                            "image": {"src": "mona_nansen.png"},
+                            "header": "Mona Nansen"
+                        },
+                        {
+                            "image": {"src": "rangimaria_hetaraka.png"},
+                            "header": "Rangimaria Hetaraka"
+                        },
+                        {
+                            "image": {"src": "alina_manu.png"},
+                            "header": "Alina Manu"
                         }
                     ]
                 },
