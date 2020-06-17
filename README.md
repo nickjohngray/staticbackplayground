@@ -1,4 +1,4 @@
-EasyEcom is an easy e-commerce solution
+EasyEcom  is an easy e-commerce solution
 
 
 To get up and running just:
