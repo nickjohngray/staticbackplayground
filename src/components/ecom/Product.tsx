@@ -80,11 +80,11 @@ class Product extends React.Component<ProductProps, ProductState> {
             <div className="product-price">{this.state.price && '$' + this.state.price}</div>
             <div className="product-image">
                 {this.state.fullMode ? (
-                    <div className="product-full-mode" onClick={() => this.setState({fullMode: false})}>
+                    <div className="product-large-mode" onClick={() => this.setState({fullMode: false})}>
                         <img src={require('./../../images/' + this.state.image)} />
                     </div>
                 ) : (
-                    <div onClick={() => this.setState({fullMode: true})}>
+                    <div className="product-small-mode" onClick={() => this.setState({fullMode: true})}>
                         <img className="img-size-half" src={require('./../../images/' + this.state.image)} />
                     </div>
                 )}
