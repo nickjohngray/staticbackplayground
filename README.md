@@ -22,8 +22,6 @@ It uses Mobile friendly CSS styles to ensure it works on all mobile devices.
 
 The system can easily  be configured to get a small business up and running quickly and selling online.
 
-Note: I am still developing this , and need to add some more mobile styles on shop page. I am aware there are no tests, I will be adding tests shortly using jest.
-
 There is a plan to build a CMS and a WYSIWUG system to allow the entire App solution to be created without writing a single line of code.
 
 If you would like to contribute to this repository please email me nickjohngray@gmail.com to discuss what feature or bug you would like to work on, or just go ahead and make a pull request and i'll consider  it.
