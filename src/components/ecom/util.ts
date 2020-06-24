@@ -4,7 +4,6 @@ export const getCartTotal = (items: ICartItem[]) => {
     const max = items.reduce((max, item) => {
         return item.product.price + max;
     }, 0);
-    //return Math.round(max);
     return max;
 };
 
@@ -27,13 +26,8 @@ export const getCartItemsByType = (items: ICartItem[]) => {
                 }
             }
         }
-
-        /* // has this product type been added yet ?
-        const found = cartItemsByType.find(item => item.productType === cartItems[i].product.type
-            || isVariation && item.productType === cartItems[i].product.type && variationName === item.variationName);
-*/
         let prodKey = isVariation ? cartItems[i].product.type + variationName : cartItems[i].product.type;
-
+        prodKey = prodKey.trim();
         // has this product type been added yet ?
         const found = cartItemsByType.find(item => item.productKey === prodKey);
 
@@ -45,10 +39,6 @@ export const getCartItemsByType = (items: ICartItem[]) => {
                 variationName: variationName
             });
         }
-        /*const sortItems = !isVariation ? cartItemsByType.find(item => item.productType === cartItems[i].product.type)
-            .items : cartItemsByType.find(cartItem => cartItem.productType === cartItems[i].product.type && variationName === cartItem.variationName)
-            .items;*/
-
         const sortItems = cartItemsByType.find(item => item.productKey === prodKey).items;
 
         sortItems.push(cartItems[i]);
@@ -56,7 +46,7 @@ export const getCartItemsByType = (items: ICartItem[]) => {
     return sortByProduct(cartItemsByType);
 };
 
-const sortByProduct = (items: ICartItemsByType[] = []) =>
+export const sortByProduct = (items: ICartItemsByType[] = []) =>
     items.sort((a, b) => {
         const textA = a.productKey.toUpperCase();
         const textB = b.productKey.toUpperCase();
@@ -67,11 +57,10 @@ export const getTotal = (items: ICartItem[]) => {
     const total = items.reduce((value, item) => {
         return item.product.price + value;
     }, 0);
-    //return Math.round(total);
     return total;
 };
 
-export const getMax = (items: ICartItem[]) => {
+export const getNextCartItemId = (items: ICartItem[]) => {
     const max = items.reduce((max, item) => {
         return item.id > max ? item.id : max;
     }, 0);

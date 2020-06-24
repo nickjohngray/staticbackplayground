@@ -121,6 +121,10 @@ class Product extends React.Component<ProductProps, ProductState> {
                         ) !== undefined
                     }
                     onClick={() => {
+                        /*  pass the fields needed to create a cart item 
+                            the id will be set in the shop component
+                            if this product has  a price variation set it as
+                            the this products price */
                         this.props.onAddToCart({
                             id: -1,
                             product: {...this.props, price: this.state.price},

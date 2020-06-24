@@ -1,5 +1,5 @@
 import {globalHistory} from '@reach/router';
-import {getCartItemsByType, getCartTotal, getMax, getTotal} from 'components/ecom/util';
+import {getCartItemsByType, getCartTotal, getNextCartItemId, getTotal} from 'components/ecom/util';
 import cloneDeep from 'lodash/cloneDeep';
 import React from 'react';
 import {PayPalButton} from 'react-paypal-button-v2';
@@ -166,7 +166,7 @@ export default connect(
         cartItemsByType: getCartItemsByType(state.cart.items),
         cartItems: state.cart.items,
         cartTotal: state.cart.items.length > 0 ? getCartTotal(state.cart.items).toFixed(2) : 0,
-        nextCartItemId: getMax(state.cart.items)
+        nextCartItemId: getNextCartItemId(state.cart.items)
     }),
     mapDispatchToProps
 )(FullCartSummary);

@@ -11,3 +11,4 @@ tmp
 .yarn.lock
 coverage
 .history
+.vscode/

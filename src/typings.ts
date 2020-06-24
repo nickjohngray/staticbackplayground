@@ -45,6 +45,12 @@ export interface IHistory {
     URL: string;
 }
 
+/* a new id is made for each product added to the cart 
+  and a copy of the product definition 
+  if the product has a variations that the user has selected
+  these will also be added
+  
+*/
 export interface ICartItem {
     id: number;
     product: IProduct;
@@ -54,10 +60,10 @@ export interface ICartItem {
 export interface IProduct {
     title: string;
     description: string;
-    price?: number;
     image: string;
     type: string;
     variations: Variation[];
+    price?: number;
 }
 
 export interface ICartItemsByType {

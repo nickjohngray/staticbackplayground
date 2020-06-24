@@ -1,9 +1,9 @@
-import {getMax} from 'components/ecom/util';
+import {getNextCartItemId} from 'components/ecom/util';
 import React from 'react';
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
 import {addToCart} from '../../redux/actions/cart.action';
-import {ICartItem, IShop, IState, IProduct} from '../../typings';
+import {ICartItem, IShop, IState} from '../../typings';
 import Product from './Product';
 
 interface ShopProps extends IShop {
@@ -48,7 +48,7 @@ const mapDispatchToProps = (dispatch: Dispatch) => ({
 export default connect(
     (state: IState) => ({
         products: state.shop.products,
-        nextCartItemId: getMax(state.cart.items)
+        nextCartItemId: getNextCartItemId(state.cart.items)
     }),
     mapDispatchToProps
 )(Shop);
