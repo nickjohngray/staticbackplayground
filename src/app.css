@@ -563,6 +563,25 @@ image-gallery-image {
     border-radius: 5px;
 }
 
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: center;
+}
+.social-icons a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.social-icons a > span {
+    margin-left: 12px;
+}
+
+a:hover {
+    color: #00ec55cf !important;
+}
+
 @media only screen and (max-width: 770px) {
     .vid-an-list,
     .vid-controls {

@@ -10,8 +10,8 @@ import {ICartItem, ICartItemsByType, IState} from '../../typings';
 import {faPlusCircle, faMinusCircle} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-const CURRENCY_CODE = 'USD';
-//const CURRENCY_CODE = 'NZD';
+//const CURRENCY_CODE = 'USD';
+const CURRENCY_CODE = 'NZD';
 
 interface CartSummaryProps {
     addToCart: (cartItem: ICartItem, id: number) => void;
@@ -105,6 +105,7 @@ class FullCartSummary extends React.Component<CartSummaryProps> {
                         window.alert(`Transaction completed by " + ${details.payer.name.given_name}`);
                     }}
                     options={{
+                        currency: CURRENCY_CODE,
                         clientId: 'ATeqz4rbYuHJ0etl1xPmTT-pK_K-PNyJQfx7EW4yhSe5pWXjzQJlQnFMGQ2_Ut9188R7zvNCNdS04qzD',
                         debug: 'true'
                     }}
@@ -142,7 +143,7 @@ class FullCartSummary extends React.Component<CartSummaryProps> {
     getOrderLine = (cartItem: ICartItemsByType) => {
         return {
             name: cartItem.isVariation ? cartItem.productKey : cartItem.items[0].product.title,
-            unit_amount: {value: cartItem.items[0].product.price.toFixed(2), currency_code: 'USD'},
+            unit_amount: {value: cartItem.items[0].product.price.toFixed(2), currency_code: CURRENCY_CODE},
             quantity: cartItem.items.length.toString()
         };
     };
