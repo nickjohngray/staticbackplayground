@@ -151,7 +151,7 @@
                     "opener": {
                         "type": "tab"
                     },
-                    "header": "Members who trained out of the Strength Pit",
+                    "header": "Trained at Strength Pit",
                     "sections": [
                         {
                             "image": {
@@ -1056,6 +1056,15 @@
             "template": "src/components/pages/Sponsors",
             "images": [
                 {
+                    "src": "husk_and_stone.png",
+                    "url": "#"
+                },
+                {
+                    "src": "strenth_gear.jpg",
+                    "url": "https://strengthgear.co.nz"
+                },
+                
+                {
                     "src": "tumunu_sunglasses.fw_.png",
                     "url": "https://www.tumunusunglasses.co.nz"
                 },
@@ -1093,8 +1102,52 @@
     "products": [
         {
             "type": "TSHIRT",
-            "title": "tshirt",
-            "description": "<div><p>Aotearoa T-Shirt by Hallenstein Brothers</p><ul>Represent New Zealand in our Aotearoa tee feautring the outline of New Zealand and Aotearoa graphic. The perfect tee for those lazy summer days.</ul><ul><li> Crew neck</li><li> New Zealand outline to the front</li><li> Aotearoa graphic to the front</li><li> Regular fit</li><li> Ribbed neck</li><li> Soft cotton</li><li> 160GSM cotton</li><li> Model wears size M/32 | 185cm/6'1 tall </li></ul><p></p><p>Product code: 9548505</p></div>",
+            "title": "Training Tee",
+            "description": "AS Colors - Staple",
+            "price": 25,
+            "image": "strength-pit-red-tshirt.fw_.png",
+            "variations": [
+                {
+                    "title": "Size",
+                    "item": [
+                        {
+                            "optionValue": "Pick 1..."
+                        },
+                        {
+                            "optionValue": "Small"
+                        },
+                        {
+                            "optionValue": "Medium"
+                        },
+                        {
+                            "optionValue": "Large"
+                        },
+                        {
+                            "optionValue": "XL"
+                        },
+                        {
+                            "optionValue": "2XL"
+                        },
+                        {
+                            "optionValue": "3XL"
+                        },
+                        {
+                            "optionValue": "4XL"
+                        },
+                        {
+                            "optionValue": "5XL"
+                        },
+                        {
+                            "optionValue": "6XL"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TSHIRT",
+            "title": "Dress tshirt",
+            "description": "AS Colors - Staple",
             "price": 35,
             "image": "strength-pit-red-tshirt.fw_.png",
             "variations": [

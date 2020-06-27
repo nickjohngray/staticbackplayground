@@ -23,10 +23,13 @@ class YoutubePlayer extends React.Component {
                 playlistId: 'PLQKHRXKBnJUso4ZPSidM9SA12ng-dsm9V'
             }
         });
-        this.setState({
-            videos: response.data.items
-        });
-        this.selectVideo(response.data.items[0]);
+        if (response.data.items && response.data.items.length > 0) {
+            const videos = response.data.items.reverse();
+            this.setState({
+                videos
+            });
+            this.selectVideo(videos[0]);
+        }
     };
     search = async termFromSearchBar => {
         const response = await youtube.get('/search', {

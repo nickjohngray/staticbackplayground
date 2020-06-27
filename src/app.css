@@ -155,23 +155,28 @@ h1 {
     margin-bottom: 10px;
 }
 
-.row {
-}
-
 .column {
     min-width: 70px;
-    white-space: nowrap;
+    white-space: pre-wrap;
     text-align: left;
     max-width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .column.product-name {
     min-width: 300px !important;
+}
+.column.product-total,
+.column.actions {
+    min-width: 150px;
 }
 
 .column.actions {
     padding-left: 10px;
+}
+.actions-header {
+    text-align: right;
 }
 
 .column.actions button {
@@ -340,6 +345,7 @@ select {
 .variation-name {
     text-transform: initial;
     font-size: 16px;
+    display: block;
 }
 
 .center-text {
@@ -389,19 +395,6 @@ select {
     /*border: 1px dashed rgb(202, 8, 3);*/
 }
 
-/*
-.video-item {
-    display: flex !important;
-    align-items: center !important;
-    cursor: pointer;
-}
-
-.video-item.item img {
-    max-width: 200px;
-    max-height: 250px;
-}
-*/
-
 .vid-container {
     display: flex;
     flex-direction: column;
@@ -420,7 +413,12 @@ select {
 }
 
 .vid-list {
+    margin-top: 20px;
     padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 
 .vid-iframe {
@@ -430,8 +428,12 @@ select {
 .vid-thumbnail {
     border: 2px rgb(202, 8, 3) dashed;
     cursor: pointer;
-    margin-bottom: 20px;
-    padding: 10px;
+    padding: 5px;
+}
+.vid-thumbnail img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .vid-thumbnail:hover {
@@ -593,6 +595,11 @@ image-gallery-image {
         padding: 0px;
     }
 
+    .show-recent {
+        text-align: center;
+        margin-top: 5px;
+    }
+
     .vid-search {
         padding: 4px;
         margin-right: 0px;
@@ -609,10 +616,12 @@ image-gallery-image {
     }
 
     .vid {
-        height: 180px;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
         padding: 5px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .vid-iframe {
@@ -695,7 +704,19 @@ image-gallery-image {
         padding-bottom: 0px;
     }
 
+    .column {
+        white-space: wrap;
+    }
+
     .column.product-name {
         max-width: initial;
+    }
+
+    .variation-name {
+        display: inline;
+    }
+
+    .actions-header {
+        text-align: left;
     }
 }

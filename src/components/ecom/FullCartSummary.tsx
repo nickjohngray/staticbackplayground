@@ -11,6 +11,7 @@ import {faPlusCircle, faMinusCircle} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const CURRENCY_CODE = 'USD';
+//const CURRENCY_CODE = 'NZD';
 
 interface CartSummaryProps {
     addToCart: (cartItem: ICartItem, id: number) => void;
@@ -34,7 +35,7 @@ class FullCartSummary extends React.Component<CartSummaryProps> {
                 <div className="column">Unit $</div>
                 <div className="column">Qty</div>
                 <div className="column">Total</div>
-                <div className="column actions">Actions</div>
+                <div className="column actions actions-header">Actions</div>
             </div>
             {this.props.cartItemsByType.map((cartItem, key: number) => (
                 <div className="row detail" key={key}>
@@ -55,7 +56,7 @@ class FullCartSummary extends React.Component<CartSummaryProps> {
                         <span className="mobile">Qty: </span>
                         {cartItem.items.length}
                     </div>
-                    <div className="column">
+                    <div className="column product-total">
                         <span className="mobile">Total: </span>${getTotal(cartItem.items).toFixed(2)}{' '}
                     </div>
                     <div className="column actions">
@@ -97,7 +98,6 @@ class FullCartSummary extends React.Component<CartSummaryProps> {
                     style={{maxWidth: '200px'}}
                     disabled={this.props.cartTotal === 0}
                     createOrder={(object, actions) => this.makeOrder(object, actions)}
-                    /* currency={'NZ'}*/
                     amount="0.01"
                     shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                     // @ts-ignore

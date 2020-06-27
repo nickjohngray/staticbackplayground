@@ -10520,10 +10520,10 @@ react-node-resolver@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-node-resolver/-/react-node-resolver-2.0.1.tgz#1f0cc83938bf590a1cf42006b23f6b8f68e7b886"
   integrity sha512-+PPy/FtAAo5wsLQYMlHkxJ3AMUGL33gpEIx/HBzS8OrcIfacRhGaNVWUJ8bhEbc64en+/bbCNTVZR+pkhqXEbA==
 
-react-paypal-button-v2@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/react-paypal-button-v2/-/react-paypal-button-v2-2.6.1.tgz#fca4132cafcf9205ad49c961e105885d8f86a3b2"
-  integrity sha512-ia1zzdRgziSfnJ/UueM6i0omEocbv4cge3mBRmpA6WSyxsX6c501HWHVwvXMEbTDCPK5+0ZKewhBzf/wq618Cg==
+react-paypal-button-v2@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/react-paypal-button-v2/-/react-paypal-button-v2-2.6.2.tgz#6827b3d16609a44c7a41a69cda223b2da96beaed"
+  integrity sha512-+IgmfbKRdlfopX8YHfPcCrbuQnaA4mCRPQV3VbFXVHDOEiEHvROJ8arQc/JTa1ppRc95u/SweKeVRK1c65JWqA==
   dependencies:
     prop-types "^15.7.2"
     rimraf "^3.0.0"
