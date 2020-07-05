@@ -486,19 +486,46 @@ select {
 /* logo animation */
 
 .logo-man,
+.logo-words,
+.logo-ball {
+    pointer-events: none;
+}
+
 .logo-words {
     width: 80vmin;
-    pointer-events: none;
 }
 
 .logo-man {
     margin-top: -61vmin;
     width: 45vmin;
+    z-index: 10;
+}
+
+.logo-ball {
+    margin-top: -45vmin;
+    margin-left: 41vw;
+    width: 45vmin;
+    z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .logo-words {
+    .logo-spin-words {
         animation: logo-words-spin infinite 20s linear;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo-spin-ball {
+        animation: logo-spin-ball infinite 20s linear;
+    }
+}
+
+@keyframes logo-spin-ball {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
 
@@ -583,6 +610,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 770px) {
+    .logo-ball {
+        min-width: 42vw;
+        margin-left: 36vw;
+    }
+
     .vid-an-list,
     .vid-controls {
         flex-direction: column;
@@ -737,5 +769,85 @@ a:hover {
 
     .actions-header {
         text-align: left;
+    }
+}
+
+.about-block,
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: slideinAndSpin;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideinAndSpin {
+    from {
+        margin-left: 50%;
+        width: 110%;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+img {
+    animation-duration: 1s;
+    animation-name: blurImage;
+}
+
+@keyframes blurImage {
+    from {
+        filter: blur(100px);
+    }
+
+    to {
+        filter: blur(0px);
+    }
+}
+
+.logo-drop-ball {
+    animation-duration: 2s;
+    animation-name: dropAndSpinBall;
+    animation-iteration-count: 1;
+}
+
+@keyframes dropAndSpinBall {
+    from {
+        margin-top: -1000px;
+    }
+
+    to {
+        margin-top: -45vmin;
     }
 }

@@ -1105,7 +1105,7 @@
             "title": "Training Tee",
             "description": "AS Colors - Staple",
             "price": 25,
-            "image": "strength-pit-red-tshirt.fw_.png",
+            "image": "strength_pit_black_training_tshirt.jpg",
             "variations": [
                 {
                     "title": "Size",
@@ -1149,7 +1149,7 @@
             "title": "Dress tshirt",
             "description": "AS Colors - Staple",
             "price": 35,
-            "image": "strength-pit-red-tshirt.fw_.png",
+            "image": "strength_pit_white_tshirt.png",
             "variations": [
                 {
                     "title": "Size",
@@ -1191,27 +1191,27 @@
                     "item": [
                         {
                             "optionValue": "Pick 1...",
-                            "image": "blsck-t.png"
+                            "image": "strength_pit_black_tshirt.jpg"
                         },
                         {
                             "optionValue": "Black",
-                            "image": "strength-pit-black-tshirt01.jpg"
+                            "image": "strength_pit_black_tshirt.jpg"
                         },
                         {
                             "optionValue": "Red",
-                            "image": "strength-pit-red-tshirt.fw_.png"
+                            "image": "strength_pit_red_tshirt.png"
                         },
                         {
                             "optionValue": "White",
-                            "image": "strength-pit-white-tshirt.fw_.png"
+                            "image": "strength_pit_white_tshirt.png"
                         },
                         {
                             "optionValue": "Navy",
-                            "image": "strength-pit-navy-tshirt.fw_.png"
+                            "image": "strength_pit_navy_tshirt.png"
                         },
                         {
                             "optionValue": "Chacoal",
-                            "image": "tees_chacoal.fw_.png"
+                            "image": "strength_pit_charcoal_tshirt.png"
                         }
                     ]
                 }

@@ -21,7 +21,7 @@ class FBGallery extends React.Component {
 
     async componentDidMount() {
         const key =
-            'EAADcbfCjxXkBADq1SbhZCo0LouHlZBl7FHi9zSlTRUqZCO5tGVOga0ZB9ScpE7tZAO3qEWyDMYAGKm7ZCz3Gmj0YWvjE9ZBFKWKmy8ZBTi4JiW0KPoLZAv1cLLZBGWjfw4n4uPvInQYcITbdqZCtVNi6bdRtSfbo31hRFMeaMk4ZBPKBOWT8ZCripVr1WEmggGX0brlk7kZC9km8gghgZDZD';
+            'EAADcbfCjxXkBAGnfw8ijJY7QXg2AZCGT0ZC14tSYplDK7DkV7su8M79A272EUKae0XQXrmV8xQ3QEfAy7aO1S1KNa6LJGqvKdviZCywW0sZA4gWpkBVaus04brZAYTrd30UZCGog3fhLTOlTn1RugOP7ZBgnVgs3RBVUgnAUF6EUV0MiaIA7ZA3pesxkQcItYjZBuz1zZBkGLPhQZDZD';
 
         const galleryId = '435429489951715';
 
