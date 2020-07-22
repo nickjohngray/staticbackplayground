@@ -10,7 +10,7 @@ yarn start
 
 Update the Manifest file and add other components as needed
 
-This system uses React and React Static  ( that makes it lighting fast ) and Redux with TypeScript ( to force nice code standards ) that  will replace https://strengthpitotara.co.nz.  It is an e-commerce mobile friendly solution to get a small business selling online quickly and to provide a fast and extremely  user friendly experience for buyers and a happy and in-powering experience for software developers. I plan to change the name to Static-Back, as Static systems are Back and this is what this is!
+This system uses React and React Static  ( that makes it lighting fast ) and Redux with TypeScript ( to force nice code standards ).  It is an e-commerce mobile friendly solution to get a small business selling online quickly and to provide a fast and extremely  user friendly experience for buyers and a happy and in-powering experience for software developers. I plan to change the name to Static-Back, as Static systems are Back and this is what this is!
 
 The system connects to social network platforms by pulling in the clients YouTube videos and images from Facebook (FB).  So whenever they upload an image  to their  FB gallery or a video to their  Youtube playlist it will magically show in the video and image section on the App ; thus avoiding traditional  double maintenance  problems and having to have a bakend for the App.
 
