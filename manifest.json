@@ -3,7 +3,7 @@
     "appName": "Strength Pit Otara",
     "pages": [
         {
-            "name": "Home",
+            "name": "HomeXX",
             "path": "/",
             "template": "src/components/pages/Home"
         },
